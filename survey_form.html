@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width intial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <form id="survey-form">
+  <!-- danger! -->
+    <label for="name" id="name-label ">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" value="John" required></input>
+  
+  
+  <label for="email" id="email-label">Email</label> 
+  <input type="email" id="email" placeholder="Enter your Email" value="mm25@gmail.com" required></input>
+  
+ 
+  <label for="number" id="number-label">Age(optional)</label> 
+  <input type="number" id="number" min="13" max="120" value = "45" placeholder="Age"></input>
+  
+  <!-- danger -->
+    <label for="dropdown" id="name-label">Which option best describes your current role?
+      <select id="dropdown" name="dropdown">
+        <option value="">Select current role</option>
+        <option value="1">Student</option>
+        <option value="2">Full Time Job</option>
+        <option value="3">Full Time Learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+      </select>
+    </label>
+    <!-- recommend start-->
+    <label id="name-label">Would you recommend freeCodeCamp to a friend?</label>
+
+    <div class="emu">
+      <input type="radio" name="addis" value="Definitely" checked />
+      <label for="" id="name-label">Definitely</label>
+    </div>
+    <div class="emu">
+      <input type="radio" name="addis" value="Maybe"/>
+      <label for="" id="name-label">Maybe</label>
+    </div>
+    <div class="emu">
+      <input type="radio" name="addis" value="Not Sure"/>
+      <label for="" id="name-label">Not Sure</label>
+    </div>
+
+    <!-- recommend end -->
+    <label for="dropdown" id="name-label">What is your favorite feature of freeCodeCamp?
+      <select id="dropdown" name="dropdown">
+        <option value="0">Select an option</option>
+        <option value="11">Challenges</option>
+        <option value="9">Projects</option>
+        <option value="12">Community</option>
+        <option value="7">Open Source</option>
+      </select>
+    </label>
+    <label class="lbl" id="name-label">What would you like to see improved? (Check all that apply)</label>
+    <div class="emu">
+      <input type="checkbox" id="Keber" value="Front-end Projects"/>
+      <label for="Keber" id="name-label">Front-end Projects</label>
+    </div>  
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Back-end Projects"/>
+      <label for="" id="name-label">Back-end Projects</label>
+    </div>  
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Data Visualization"/>
+      <label for="" id="name-label">Data Visualization</label>
+    </div>
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Challenges"/>
+      <label for="" id="name-label">Challenges</label>
+    </div> 
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Open Source Community"/>
+      <label for="" id="name-label">Open Source Community</label>
+    </div>
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Gitter help rooms"/>
+      <label for="" id="name-label">Gitter help rooms</label>
+    </div> 
+    <div class="emu"> 
+      <input type="checkbox" id="Keber" class="Keber" value="Videos"/>
+      <label for="" id="name-label">Gitter help rooms</label>
+    </div> 
+    <div class="emu">  
+      <input type="checkbox" id="Keber" value="City Meetups" class="Keber"/>
+      <label for="" id="name-label">City Meetups</label>
+    </div>
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Wiki"/>
+      <label for="" id="name-label">Wiki</label>
+    </div>
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Forum"/>
+      <label for="" id="name-label">Forum</label>
+    </div>
+    <div class="emu">  
+      <input type="checkbox" id="Keber" class="Keber" value="Additional Courses"/>
+      <label for="" id="name-label">Additional Courses</label>
+    </div>  
+    <div>
+      <label for="amel" id="name-label">Any comments or suggestions?</label>
+      <textarea id="amel" name="amel" rows="5" cols="30" Placeholder="Enter your comment here..."></textarea>
+    </div>
+    <input type="submit" value="Submit" id="submit" ></input>
+  </form>
+</div>
+  
+</body>
+
+</html>
